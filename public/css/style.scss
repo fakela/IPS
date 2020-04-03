@@ -387,6 +387,9 @@ button {
 	.expect__title {
 		font-size: 27px;
 	}
+	.submiton-popup__content {
+		margin-left: 78px;
+	}
 }
 @media (max-width:440px) {
 	.expect__title {
@@ -511,5 +514,10 @@ button {
 	}
 	.pop__inner-block {
 		margin: 10px auto 40px;
+	}
+}
+@media only screen and (max-width:1366px) and (orientation:portrait) {
+	.submiton-popup__content {
+		margin-left: 202px;
 	}
 }
