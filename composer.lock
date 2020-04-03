@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0dcbdc80776ca79d6311b8f92c5a4b5",
+    "content-hash": "241c3b72bbdcad350ce324f7d374303a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -504,6 +504,38 @@
                 }
             ],
             "time": "2020-03-11T21:05:07+00:00"
+        },
+        {
+            "name": "gilak/nolock",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hasangilak/NoLock.git",
+                "reference": "a6849043fb85227871abee264eebb1f694f6cfdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hasangilak/NoLock/zipball/a6849043fb85227871abee264eebb1f694f6cfdc",
+                "reference": "a6849043fb85227871abee264eebb1f694f6cfdc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NoLock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "get read of locking file in both laravel and the way laravel use league filesystem",
+            "keywords": [
+                "filesystem",
+                "lock",
+                "package"
+            ],
+            "time": "2016-01-11T20:18:33+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
