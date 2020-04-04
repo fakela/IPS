@@ -516,14 +516,18 @@ button {
 		margin: 10px auto 40px;
 	}
 }
-@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (orientation: landscape)  {}
-
-/* Portrait*/
-@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait)  {
+@media only screen and (max-device-width: 1366px) and (orientation: portrait)  {
 	.submiton-popup__content {
 		margin-left: 202px;
 	}
 }
+
+/* Portrait*/
+// @media only screen and (min-device-width: 1024px) and (orientation: portrait)  {
+// 	.submiton-popup__content {
+// 		margin-left: 202px;
+// 	}
+// }
 
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
 				/* For landscape layouts only */
@@ -531,4 +535,8 @@ button {
 					margin-left: 201px;
 			  }
 			  
+}
+@media (max-width: 1023px) and (orientation:portrait) {
+	.submiton-popup__content {
+		margin-left: 96px;
 }
